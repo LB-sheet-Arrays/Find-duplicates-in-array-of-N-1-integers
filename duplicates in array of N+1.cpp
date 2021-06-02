@@ -1,13 +1,8 @@
 //N+1 integers matlab if n=5, array should have {1,2,4,3,3,2} only i.e between 1 and n-1 included
 
 //logic:
-//Sort the array forst and then traverse once
+//Sort the array forst and then traverse once to check if adjacent elements are same
 
-
-//Issue:
-//The order in which the elements should be maintained! Maine ye kiya nhi hai
-//Ex -> a[]={0,3,1,3,0}
-//output: 3,0 is the sequence bcoz 0 ka repeat milne se pehle 3 ka mila hai!
 
 #include<iostream>
 #include<algorithm>
